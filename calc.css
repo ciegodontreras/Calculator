@@ -1,10 +1,18 @@
-.calc {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+}
+
+.calc {
+    height: 400px; 
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid red 2px;
+    background-color: black;
 }
 
 .buttons {
@@ -24,6 +32,7 @@
     height: 50px;
     width: 292px;
     margin-bottom: 5px;
+    font-size: 40px;
 }
 
 button {
