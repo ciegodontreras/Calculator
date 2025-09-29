@@ -1,0 +1,39 @@
+.calc {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid red 2px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+    "clear negative percent divide"
+    "number7 number8 number9 multiply"
+    "number4 number5 number6 subtract"
+    "number1 number2 number3 add"
+    "number0 number0 decimal equals";
+    height: 300px;
+    width: 300px;
+    gap: 5px;
+}
+
+.display {
+    height: 50px;
+    width: 292px;
+    margin-bottom: 5px;
+}
+
+button {
+    border: 0;
+    border-radius: 2px;
+    font-size: 20px;
+    background-color: rgb(201, 201, 201);
+}
+
+button:active {
+    background-color: rgb(226, 226, 226);
+}
+
